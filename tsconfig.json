@@ -1,6 +1,25 @@
 {
-  "extends": "expo/tsconfig.base",
+  "types": [
+    "node",
+    "jest",
+    "@testing-library/jest-dom"
+  ],
   "compilerOptions": {
-    "strict": true
-  }
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "src/*": [
+        "src/*"
+      ]
+    }
+  },
+  "extends": "expo/tsconfig.base"
 }
