@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/App.tsx",
   "scripts": {
-    "start": "expo start",
-    "start-production": "expo start --no-dev --minify",
+    "start": "expo start --no-dev --minify",
+    "start-development": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

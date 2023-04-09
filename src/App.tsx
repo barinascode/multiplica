@@ -1,5 +1,5 @@
-import React from 'react';
 import 'reflect-metadata';
+import React from 'react';
 import { registerRootComponent } from 'expo';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
