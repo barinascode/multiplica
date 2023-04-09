@@ -8,6 +8,7 @@
     "strict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "allowJs": true,
     "baseUrl": ".",
     "paths": {
       "@shared/*": [
@@ -15,6 +16,9 @@
       ],
       "@modules/*": [
         "src/modules/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
       ],
       "src/*": [
         "src/*"
